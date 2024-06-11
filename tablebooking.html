@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/image1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <div class="headerbar">
+            <div class="account">
+                <div class="nav">
+                    <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="menu.html">
+                        <li>Menu</li>
+                    </a>
+                    <a href="tablebooking.html">
+                        <li>Book Table</li>
+                    </a>
+                    <a href="reviews.html">
+                        <li>Reviews</li>
+                    </a>
+                    <a href="faq.html">
+                        <li>FAQ</li>
+                    </a>
+                </ul> 
+            </div>
+                
+            <ul>
+                    <a href="">
+                        <li>
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                        </li>
+                </a>
+                <div class="search" id="searchinput1">
+                <input type="search">
+                <i class="fa-solid fa-magnifying-glass Srchicon"></i>       
+            </div>
+                 <a href="">
+                    <li class="fa-solid fa-user" id="user-mb">
+
+                    </li>
+                 </a>    
+            </ul>
+        </div>
+    </div>
+        
+        
+        <div class="logo">
+            <img src="images/logo2.png" alt="">
+        </div>
+
+        <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark" id="hdcross"></i>
+        </div>
+
+        <div class="nav">
+            <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="menu.html">
+                <li>Menu</li>
+            </a>
+            <a href="#">
+                <li>Book Table</li>
+            </a>
+            <a href="reviews.html">
+                <li>Reviews</li>
+            </a>
+            <a href="faq.html">
+                <li>FAQ</li>
+            </a>
+        </ul>
+        </div>
+        
+        
+        <div class="account">
+            <ul>
+                <a href="#">
+                    <li>
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+                    </li>
+                </a>
+                <div class="search" id="searchinput2">
+                    <input type="search">
+                    <i class="fa-solid fa-magnifying-glass Srchicon"></i>
+                </div>
+                <a href="#">
+                    <li>
+                        <i class="fa-solid fa-user" id="user-lap"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+    </div>
+    
+    </header>
+
+    <section class = "banner">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class = "card-container">
+            <div class = "card-img">
+                <!-- image here -->
+            </div>
+
+            <div class = "card-content">
+                <h3>Reservation</h3>
+                <form>
+                    <div class = "form-row">
+                        <select name = "days">
+                            <option value = "day-select">Select Day</option>
+                            <option value = "sunday">Sunday</option>
+                            <option value = "monday">Monday</option>
+                            <option value = "tuesday">Tuesday</option>
+                            <option value = "wednesday">Wednesday</option>
+                            <option value = "thursday">Thursday</option>
+                            <option value = "friday">Friday</option>
+                            <option value = "saturday">Saturday</option>
+                        </select>
+
+                        <select name = "hours">
+                            <option value = "hour-select">Select Hour</option>
+                            <option value = "10">10: 00</option>
+                            <option value = "10">12: 00</option>
+                            <option value = "10">14: 00</option>
+                            <option value = "10">16: 00</option>
+                            <option value = "10">18: 00</option>
+                            <option value = "10">20: 00</option>
+                            <option value = "10">22: 00</option>
+                        </select>
+                    </div>
+
+                    <div class = "form-row">
+                        <input type = "text" placeholder="Full Name">
+                        <input type = "text" placeholder="Phone Number">
+                    </div>
+
+                    <div class = "form-row">
+                        <input type = "number" placeholder="How Many Persons?" min = "1">
+                        <input type = "submit" value = "BOOK TABLE">
+                    </div>
+                </form>
+            </div>
+        </div>
+ </section>
+ <script src="restuarant.js"></script>
+</body>
+</html>
